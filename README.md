@@ -1,4 +1,4 @@
-# Zmienne dostępne w szablnach
+# Zmienne dostępne w szablonach stron Sugestera
 
 ```
 {{title}}
