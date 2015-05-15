@@ -28,6 +28,7 @@
   {{home_site.name}} 
 {{/if}}
 
+
 {{#if user}}:
   {{user.login}}
   {{user.first_name}}
@@ -67,7 +68,10 @@
     {{image.url}}
     {{image.url_medium}}
   {{/if}}
-
+  {{#if category}}:
+    {{category.url}}
+    {{category.name}} 
+  {{/if}}
 {{/each}}
 
 ```
