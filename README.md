@@ -79,5 +79,6 @@
   {{/each}}
   {{anonymous_votes}}
 {{/each}}
+{{{admin_info}}}
 
 ```
