@@ -72,6 +72,11 @@
     {{category.url}}
     {{category.name}} 
   {{/if}}
+  {{#each voters}}
+    {{user.profile_path}}
+    {{user.login}}
+  {{/each}}
+  {{anonymous_votes}}
 {{/each}}
 
 ```
