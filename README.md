@@ -51,6 +51,7 @@
   {{comments_count}}
   {{email}}
   {{kind}}
+  {{status}}
   {{#if user}}:
     {{user.login}}
     {{user.first_name}}
