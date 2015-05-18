@@ -79,6 +79,7 @@
   {{/each}}
   {{anonymous_votes}}
 {{/each}}
+{{user_report_url}}
 {{{admin_info}}}
 
 ```
