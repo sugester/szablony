@@ -83,3 +83,22 @@
 {{{admin_info}}}
 
 ```
+
+
+Przykład wywołania funkcji:
+
+```
+tłumaczenia {{tt 'template.function_tests'}}
+
+{{#in path "/"}}
+    wyświetlaj dla strony głównej 
+{{/in}}
+
+{{#in path "/, /u"}} 
+   strona główna i profil usera 
+{{/in}}
+
+{{#not_in path "/, /u"}} 
+   wszystkie strony inne niż główna i profil usera 
+{{/not_in}}	
+```
